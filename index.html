@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Contact us 1-(305)-725-1000</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <span class="text-primary fs-5 fw-bold">ExpertD.</span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Team</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contact</a>
+              </li>
+              </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Email" aria-label="email">
+              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribe</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider de Imagenes -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="assets/images/slide1.jpg" class="d-block w-100" alt="slide1">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="assets/images/slide2.jpg" class="d-block w-100" alt="slide2">
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="assets/images/slide3.jpg" class="d-block w-100" alt="slide3">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Intro-->
+
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+          <h1 class="p-3 fs-2 border-top border-3">A single agency for all your needs of <span class="text-primary">Digital Marketing</span></h1>
+          <p class="p-3 fs-4"><span class="text-primary">ExpertD.</span> It is the agency where we help you establish your online presence. SEO, Web pages, online stores, social media.</p>
+      </section>
+
+      <!-- Servicios -->
+
+      <section class="container-fluid">
+        <div class="row w-75 mx-auto servicio-fila">
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                  <img src="assets/images/desarrollo.png" alt="developer" width="180" height=160>
+                  <div>
+                 <h3 class="fs-5 mt-4 px-4 pb-1">Developer</h3>
+                 <p class="px-4">Developing of web applications, moviles and ecommerce</p>
+            </div>
+          </div>
+             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="assets/images/concepto.png" alt="concepto" width="180" height=160>
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Branding</h3>
+                    <p class="px-4">Design, conceptualization and implementation of digital products </p>
+                </div>
+             </div>
+             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="assets/images/comunicaciones.png" alt="comunication" width="180" height=160>
+                <div>
+               <h3 class="fs-5 mt-4 px-4 pb-1">Comunication</h3>
+               <p class="px-4">Developing of plan to comunication of their customers</p>
+          </div>
+        </div>
+           <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+              <img src="assets/images/seo.png" alt="SEO" width="180" height=160>
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+                  <p class="px-4">We analyze the efficiency and optimize the websites</p>
+              </div>
+           </div>
+        </div>
+      </section>
+
+      <!--ABout Us  -->
+
+      <section>
+          <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">Small Team<span class="text-primary"> Greats Results</span></h1>
+            <p class="fs-4">We always look at a specificy right people to work with us. If You are ready to the dare, we are waiting to You. </p>
+          </div>
+
+          <div class="mt-5 text-center">
+              <img class="img-fluid" src="assets/images/equipo.jpg" alt="Team">
+          </div>
+
+          <div id="local" class="border-top border-2">
+              <div class="mapa"></div>
+                  <div>
+                      <div class="wrapper">
+                          <h2>Ubitcation on Miami, Florida</h2>
+                          <h2 class="text-primary mb-4" id="typewriter"></h2>
+                          <p class="fs-5 text-body">We chose Miami for our office in order to be close to our clients.
+                            We are located in Brickell, the heart and financial center of Miami, close to the best restaurants, shops and just 15 minutes from the beaches. Visit us and you will not regret it!</p>
+                          <section class="d-flex" id="numeros-local">
+                              <div>
+                                  <p class="text-primary fs-5">248</p>
+                                  <p>Sun days</p>
+                              </div>
+                              <div>
+                                <p class="text-primary fs-5">100%</p>
+                                <p>Agreed</p>
+                            </div>
+                            <div>
+                                <p class="text-primary fs-5">24 C°</p>
+                                <p>Temperature</p>
+                            </div>
+                          </section>
+                      </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Forulario Bg -->
+
+      <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+          <div id="bg-contacto">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L120,213.3C240,235,480,277,720,272C960,267,1200,213,1320,186.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg> -->
+          </div>
+
+          <!-- Formulario -->
+
+          <div class="container" id="contenedor-formulario">
+              <div id="titulo-formulario" class="text-center mb-4">
+                  <div><img src="assets/images/support.png" alt="contact" class="img-fluid"></div>
+                  <h2>Contacts</h2>
+                  <p class="fs-5">We are here to make your projects into realitys</p>
+              </div>
+              <form action="">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="nombre" placeholder="Adrian Sanchez" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" class="form-control" id="tel" placeholder="000-000-000" required>
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <button type="button" class="btn btn-primary w-100 fs-5">Send Message</button>
+                  </div>
+              </form>
+          </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+          <p class="fs-5 px-3 pt-3">ExperD. &copy; All rights reserves 2021</p>
+          <div id="iconos">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
